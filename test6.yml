@@ -1,0 +1,7 @@
+---
+- name: Install dependencies
+  yum: name={{ item }} state=present
+  with_items:
+    - htop
+    - git-all
+    - python-devel

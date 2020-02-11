@@ -1,0 +1,11 @@
+---
+# This playbook uses Pull sources from the repository using ansible
+- name: Pull sources from the repository. 
+  hosts: localhost 
+  tasks:
+    - name: Pull sources from the repository.
+      git:
+         repo: 'https://github.com/ravimpg71/origin.git'
+         dest: /home/ec2-user/git/
+         update: yes
+         version: master
