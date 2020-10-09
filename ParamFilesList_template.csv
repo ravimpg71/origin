@@ -1,0 +1,3 @@
+Source Environment,git path,Target Environment,Target Folder Name,File Name,Source
+SIT,https://github.com/ravimpg71/origin/blob/master/REL_PROF_PARAM.par,UAT,/dql_infashared/Param/paramtest,REL_PROF_PARAM.par,git
+SIT,https://github.com/ravimpg71/origin/blob/master/CTRCT_SCORE_PARAM_OPS_DIG_DAILY_2.par,UAT,/dql_infashared/Param/paramtest,CTRCT_SCORE_PARAM_OPS_DIG_DAILY_2.par,git
